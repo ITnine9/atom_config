@@ -1,0 +1,54 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      opacity: 0.4
+    plugins:
+      playAudio: true
+      screenShake: true
+    screenShake:
+      enabled: false
+  "atom-beautify":
+    js: {}
+  "autoclose-html":
+    forceBlock: [
+      "head"
+      "style"
+    ]
+    forceInline: [
+      "title"
+      "h1"
+      "h2"
+      "h3"
+      "h4"
+      "h5"
+      "h6"
+      "p"
+    ]
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 15
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "5e4ddb36-79e3-4d7b-9eab-c2785bf65a32"
+  "linter-ui-default":
+    showPanel: true
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
+".basic.html.text":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".js.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
